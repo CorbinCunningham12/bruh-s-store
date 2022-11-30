@@ -1,0 +1,92 @@
+/*
+    selector {
+
+        property: value;
+
+    }
+
+    writing selectors: 
+
+    tagname -> selects all tags of a given type
+    .classname -> selects all members of a given class
+    tagname.classname -> selects only tages that are also members of a given class
+
+    <> -> child symbol
+
+    tagname>tagname
+    tagname>.classname
+    .classname>.classname
+    .classname>tagname
+*/
+
+.nav {
+    border-style: none;
+    display: block;
+    width: 50%;
+    margin:auto;
+    list-style: none;
+    padding-left:0%;
+    text-align: center;
+    padding: 1em;
+}
+
+.nav>li {
+    border-style: outset;
+    display: inline-block;
+    margin: .25em;
+}
+
+.nav>li>a:hover {
+    background-color: rgb(182, 182, 182);
+    
+}
+
+a {
+    color: rgb(98, 98, 98);
+    text-decoration: none;
+    text-align: center;
+}
+
+.titletext {
+    text-align: center; 
+    font-size: 500%; 
+}
+
+.normaltext {
+    text-align: center;
+    
+}
+.obvious {
+    color: blue;
+    
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.bodyhid {
+    background-color: black;
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman';
+}
